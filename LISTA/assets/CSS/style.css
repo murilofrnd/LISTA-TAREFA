@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b384a;
+    
+}
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+
+.completo {
+    text-decoration: line-through;
+    background-color: rgb(6, 134, 55);
+    border-radius: 13px;
+    width: auto;
+    
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.adicionarTarefa {
+    background-color: rgb(5, 178, 221); /* Cor verde no botão Adicionar Tarefa */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.removerTarefa {
+    background-color: red; /*Cor vermelha no botão Remover Tarefa */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.editar {
+    background-color: lightblue; /* Cor de fundo azul claro */
+    border: none;
+    color: white;
+    padding: 5px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
