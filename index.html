@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Tarefas</title>
+<link rel="stylesheet" type="text/css" href="assets/CSS/style.css"> <!-- comunicação com o css -->
+</head>
+<body>
+<div class="container">
+    <h1><font color="#00bfff">  Lista de Tarefas  </font></h1>
+    <input type="text" id="addTarefa" placeholder="Adicionar nova tarefa">
+    <button class="adicionarTarefa" onclick="adicionarTarefa()">Adicionar Tarefa</button> 
+    <button class="ocultarTarefa" onclick="ocultarTarefasConcluidas()"> Ocultar Concluídas</button>  
+    <button class="mostrarOcultas" onclick="mostrarOcultas()"> Mostrar Ocultas</button>  
+    <ul id="listaTarefas">
+    </ul>
+</div>
+<script src="assets/JS/app.js"></script> <!-- comunicação com o js -->
+</body>
+</html>
